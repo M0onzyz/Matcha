@@ -1767,6 +1767,7 @@ function UILib:Destroy()
     self._tree = nil
     setrobloxinput(true)
 end
-
+_G.UILib = UIlib
 return UILib
 -- x11 lib end
+
